@@ -1,0 +1,66 @@
+:root{
+    --hover: #6a5d42;
+    --link: white;
+    --bg-color: #6e7a45;
+    --bg-dropdown: #cfc3a5;
+    --bg-dropdown-hover: #ddd;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.score{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.score li{
+    list-style: none;
+}
+.cazzo{
+    padding-left: 20px;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 50%;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #000; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable, #myTableb{
+    border-collapse: collapse; /* Collapse borders */
+    width: 90%; /* Full-width */
+    border: 1px solid #000; /* Add a grey border */
+    font-size: 30px; /* Increase font-size */
+}
+
+#myTable th, #myTable td, #myTableb th, #myTableb td {
+    text-align: center;
+    padding: 12px; /* Add padding */
+}
+
+#myTable tr, #myTableb tr {
+    border-bottom: 1px solid #000;
+}
+
+#myTable tr.header, #myTableb tr.header {
+    background-color: var(--bg-color);
+}
+#myTable th, #myTableb th{
+    color: var(--bg-dropdown);
+}
+
+

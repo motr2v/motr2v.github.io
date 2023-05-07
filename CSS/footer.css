@@ -1,0 +1,23 @@
+:root{
+    --hover: #6a5d42;
+    --link: white;
+    --bg-color: #6e7a45;
+    --bg-dropdown: #cfc3a5;
+    --bg-dropdown-hover: #ddd;
+}
+footer{
+    background: var(--bg-color);
+    padding: 5px;
+    display: block;
+}
+.bott ul{
+    list-style: none;
+    line-height: 1.6;
+}
+.bott a{
+    text-decoration: none;
+    color: var(--bg-dropdown);
+}
+.bott a:hover{
+    color: var(--bg-dropdown-hover);
+}

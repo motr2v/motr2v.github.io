@@ -1,0 +1,22 @@
+:root{
+    --hover: #6a5d42;
+    --link: white;
+    --bg-color: #6e7a45;
+    --bg-dropdown: #cfc3a5;
+    --bg-dropdown-hover: #ddd;
+}
+
+.truoli{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.truoli a{
+    text-decoration: none;
+    color: var(--link);
+}
+.truoli a:hover{
+    color: var(--hover);
+}

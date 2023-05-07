@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="IMG/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="CSS/navbar.css">
+        <link rel="stylesheet" href="CSS/footer.css">
+        <link rel="stylesheet" href="CSS/Ruoli-css.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <title>M.O.T.R. v2.0</title>
+    </head>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } 
+      
+      else {
+        x.style.display = "block";
+      }
+    } 
+</script>
+
+<body>
+    <div class="topnav">
+        <a class="active">M.O.T.R.| Ruoli</a>
+        <!-- Navigation links (hidden by default) -->
+        <div class="list" id="myLinks">
+            <a href="index.html">HOME</a>
+            <a href="Medagliere.html">MEDAGLIERE</a>
+            <a href="ChiSiamo.html">CHI SIAMO</a>
+            <a href="Ruoli.html">RUOLI</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+<main>
+    <h1>Ruoli Squadra</h1>
+    <p>Come nella realta la squadra ha dei ruoli, come puoi notare in questa tabella.</p>
+    <p>I ruoli principali della squadra sono:</p>
+
+    <table class="truoli">
+        <tr>
+            <th>Disposizione</th>
+            <th>Ruolo</th>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td><a href="#Scout">Scout</a></td>
+        </tr>
+        <tr>
+            <td>II</td>
+            <td><a href="#Incursore">Incursore</a></td>
+        </tr>
+        <tr>
+            <td>III</td>
+            <td><a href="#Mitragliere">Mitragliere / Demolitore</a></td></tr>
+        <tr>
+            <td>IV</td>
+            <td><a href="#Comandante">Comandante</a></td></tr>
+        <tr>
+            <td>V</td>
+            <td><a href="#Chiudifila">Chiudifila</a></td></tr>
+    </table>
+</main>
+    
+<section id="Scout">
+    <h1>Scout</h1>
+    <p>Lo scout è un tizio.</p>
+</section>
+
+
+<footer>
+  <div class="bott">
+    <ul>
+        <li><i class="fa-sharp fa-solid fa-phone"></i> Ripter: +39 3807737637</li>
+        <li><i class="fa-sharp fa-solid fa-phone"></i> War: +39 3930750278</li>
+        <li><i class="fa-solid fa-envelope"></i> Mail: <a href="mailto:motr2.0@outlook.it">motr2.0@outlook.it</a></li>
+        <li><i class="fa-brands fa-instagram"></i> Instagram: <a href="https://www.instagram.com/motr2.0_tp/">motr2.0_tp</a></li></li>
+        <li><i class="fa-sharp fa-solid fa-location-dot"></i> Valderice</li>
+    </ul>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+:root{
+    --hover: #6a5d42;
+    --link: white;
+    --bg-color: #6e7a45;
+    --bg-dropdown: #cfc3a5;
+    --bg-dropdown-hover: #ddd;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    line-height: 3;
+    font-size: 20;
+}
+ul a{
+    text-decoration: none;
+    color: var(--link)
+}
+ul a:hover{
+    color: var(--hover);
+}
